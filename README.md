@@ -1,4 +1,4 @@
-# 🌾 Simple Rice Detection
+# 🌾 Automated Grain Counting
 
 <div align="center">
     
@@ -116,12 +116,12 @@ This cutting-edge computer vision application automatically detects and counts r
 
 **Step 1:** Clone the repository
 ```bash
-git clone https://github.com/Mushrum-mmb/Simple_Rice_Detection.git
+git clone https://github.com/Mushrum-mmb/Automated-Grain-Counting.git
 ```
 
 **Step 2:** Navigate to project directory
 ```bash
-cd Simple_Rice_Detection
+cd Automated-Grain-Counting
 ```
 
 **Step 3:** Launch the application
@@ -131,10 +131,10 @@ python rice_detector.py
 
 <div align="center">
 
-### 🎉 **Your Rice Detector is Ready!**
+### 🎉 **Your Automated Grain Counting is Ready!**
 Open the provided link in your browser and start analyzing rice images!
 
-<img width="1029" height="223" alt="image" src="https://github.com/user-attachments/assets/5cea505a-b00f-4d33-9d4b-19404a804fb9" />
+<img width="1049" height="159" alt="image" src="https://github.com/user-attachments/assets/8c3cd42c-a70b-4f44-a19f-c66b51b4d3b7" />
 
 
 </div>
