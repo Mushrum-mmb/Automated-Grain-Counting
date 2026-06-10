@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import argparse
 
 
 def rice_detection_combined(image_path):
@@ -234,10 +235,15 @@ def rice_detection_combined(image_path):
 
     return len(contours), watershed_count, total_count
 
+def get_args():
+    parser = argparse.ArgumentParser(description= "Automated Grain Counting")
+    parser.add_argument("--img-path", "-i", default=r"C:\Users\DELL\Downloads\Automated-Grain-Counting\imgs\img.png", type=str, help="path to dataset")
+    args = parser.parse_args()
+    return args
 
 if __name__ == '__main__':
     # Path to the input image (update with your image path)
-    image_path = r"C:\Users\DELL\Downloads\Simple Rice Detection\img.png"
+    image_path = get_args().img_path
 
     # Display informative message
     print("\n" + "=" * 70)
