@@ -126,7 +126,7 @@ cd Automated-Grain-Counting
 
 **Step 3:** Launch the application
 ```bash
-python rice_detector.py
+python app.py
 ```
 
 <div align="center">
@@ -134,8 +134,7 @@ python rice_detector.py
 ### 🎉 **Your Automated Grain Counting is Ready!**
 Open the provided link in your browser and start analyzing rice images!
 
-<img width="1049" height="159" alt="image" src="https://github.com/user-attachments/assets/8c3cd42c-a70b-4f44-a19f-c66b51b4d3b7" />
-
+<img width="868" height="168" alt="image" src="https://github.com/user-attachments/assets/980324f7-472d-450a-b6ba-26eba86f29ab" />
 
 </div>
 
