@@ -110,7 +110,7 @@ This cutting-edge computer vision application automatically detects and counts r
 
 <div align="center">
 
-### 🚀 **Launch Your Rice Detector in 3 Simple Steps!**
+### 🚀 **Launch Your Rice Detector in 4 Simple Steps!**
 
 </div>
 
@@ -124,7 +124,12 @@ git clone https://github.com/Mushrum-mmb/Automated-Grain-Counting.git
 cd Automated-Grain-Counting
 ```
 
-**Step 3:** Launch the application
+**Step 3:** Install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+**Step 4:** Launch the application
 ```bash
 python app.py
 ```
